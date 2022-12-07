@@ -10,4 +10,14 @@ public class PaymentServiceImpl implements PaymentService{
 
         System.out.println("Amount Credited...");
     }
+
+    @Override
+    public void add() {
+        System.out.println("Add records....");
+    }
+
+    @Override
+    public void count() {
+        System.out.println("Count records.......");
+    }
 }
